@@ -59,35 +59,35 @@ The project also includes **robust unit tests with multiple negative scenarios**
 
 ## ONE-TERMINAL INSTALLATION & RUN COMMANDS
 
-Go to project folder
+1. Go to project folder
 
 cd C:\background_jobs
 
-Create virtual environment
+2. Create virtual environment
 
 python -m venv venv
 
-Activate virtual environment
+3. Activate virtual environment
 
 venv\Scripts\activate
 
-Install required packages
+4. Install required packages
 
 pip install flask sqlalchemy pytest
 
-(Optional) Save dependencies
+5. (Optional) Save dependencies
 
 pip freeze > requirements.txt
 
-Run unit tests
+6. Run unit tests
 
 python -m pytest
 
-Run Flask application
+7. Run Flask application
 
 python app.py
 
-Run Unit Tests (Optional but Recommended)
+8. Run Unit Tests (Optional but Recommended)
 
 python -m pytest
 
